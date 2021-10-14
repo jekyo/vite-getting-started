@@ -2,7 +2,7 @@
   "name": "vite-demo",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite --port $PORT",
+    "dev": "vite --port $PORT --host 0.0.0.0",
     "build": "vite build",
     "serve": "vite preview",
     "start": "npm run build && npm run dev"
